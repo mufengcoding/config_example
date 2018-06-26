@@ -16,7 +16,7 @@ flush privileges;
 
 show grants for dev;
  
-select fristPinyin('abc'),inviteStaffCode(123);
+
 
 --- auditor 用户权限划分---
 drop user 'auditor'@'%';
@@ -45,11 +45,7 @@ flush privileges;
 
 
 
-select fristPinyin('abc'),inviteStaffCode(123);
 
-
-
-mysqldump -uauditor -pAUDITOR_123zxc --databases nuoxin > /opt/backup/nuoxin_20180611.sql
 
 
 --- real 用户权限划分---
